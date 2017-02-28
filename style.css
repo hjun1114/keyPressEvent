@@ -1,0 +1,21 @@
+* {
+  margin: 0 !important;
+  background: #1c1818;
+}
+
+.keys kbd {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Slabo 27px', serif;
+  font-weight: 20px;
+}
+.key {
+  display: inline-block;
+}
+.letters .key {
+}
+.pressed {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+}
