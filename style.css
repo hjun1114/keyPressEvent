@@ -2,17 +2,47 @@
   margin: 0 !important;
   background: #1c1818;
 }
-
+.keys {
+  padding-top: 10rem;
+  width: 100%;
+}
 .keys kbd {
   color: #fff;
-  font-size: 1.5rem;
   font-family: 'Slabo 27px', serif;
-  font-weight: 20px;
 }
 .key {
   display: inline-block;
+  border: 4px solid #000;
+  margin: 0.5rem !important;
+  width: 30px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 20px;
 }
-.letters .key {
+.letters {
+  width: 50%;
+  display: inline-block;
+}
+.letters .first-row {
+  width: 50%;
+  padding-left: 7em
+}
+.letters .second-row {
+  width: 50%;
+  padding-left: 8.5em;
+}
+.letters .third-row {
+  width: 50%;
+  padding-left: 10em;
+}
+.numbers {
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+.row-div {
+  text-align: center;
 }
 .pressed {
   transform: scale(1.1);
