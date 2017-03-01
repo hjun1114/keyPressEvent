@@ -16,12 +16,18 @@
   margin: 0.5rem !important;
   width: 30px;
   text-align: center;
+  transition: all 0.3s;
   padding: 1rem;
   font-size: 1.3rem;
   font-weight: 20px;
 }
+.pressed {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+}
 .letters {
-  width: 50%;
+  width: 60%;
   display: inline-block;
 }
 .letters .first-row {
@@ -38,14 +44,9 @@
 }
 .numbers {
   display: inline-block;
-  width: 50%;
+  width: 40%;
   float: right;
 }
 .row-div {
   text-align: center;
-}
-.pressed {
-  transform: scale(1.1);
-  border-color: yellow;
-  box-shadow: 0 0 10px yellow;
 }
